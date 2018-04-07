@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch web app",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}/web",
+			"preLaunchTask": "pub serve",
+			"smartStep": true,
+			// "pathMapping": {
+			// 	"/": "${workspaceFolder}/web",
+			// 	"/packages/english_words/": "/Users/danny/.pub-cache/hosted/pub.dartlang.org/english_words-3.1.0",
+			// }
+		}
+	]
+}
